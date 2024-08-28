@@ -1,0 +1,95 @@
+/*index css*/
+header{
+    background: linear-gradient(270deg,#f19df4 , #1EAE98);
+}
+.nav2{
+    background: linear-gradient(270deg,#f19df4 , #1EAE98);
+}
+.navigation .home,.nav2 .home{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.navigation a{
+    color: white;
+}
+main{
+    width: 96%;
+    margin-top: 60px;
+    margin-left: 3%;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 2%;
+}
+.nav2 a:hover{
+    color:#000000 ;
+    font-weight: bold;
+}
+
+@media (max-width:1000px){
+    main{
+        margin-top: 105px;
+    }
+    .navigation .login-btn,
+    .navigation a{
+        display: none;
+    }
+}
+@media (max-width:500px) {
+    .nav2 a,.nav2 .login-btn{
+        font-size: 1.2rem;        
+    }
+}
+@media (max-width:450px) {
+    .mainline img{
+        width:80%;
+        height:40%;
+    }
+    .mainline h1{
+        font-size: 1.4em;
+    }
+    .mainline h3{
+        font-size: 0.7em;
+    }
+    .nav2 .login-btn{
+        width: 60px;
+        line-height: 15px;
+        background-color: transparent;
+        border:2px solid white;
+        border-radius: 20px;
+        color:white;
+        font-size: 1.2em;
+    }
+}
+body {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.mainline{
+    padding-top: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.mainline h3{
+    font-size: 1em;
+    background-color:skyblue;
+    border:1px solid blue;
+    border-radius: 30px;
+    padding: 10px;
+}
+.h1{
+    font-size: 1.2em;
+}
+#viewmore{
+    font-size: 2em;
+    border: none;
+    border-radius: 25px;
+}

@@ -1,0 +1,167 @@
+main{
+    width: 96%;
+    margin-top: 70px;
+    margin-left: 2%;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+}
+main{
+    display: flex;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 9px;
+    border:2px solid white;
+    color:white;
+    margin-bottom: 2%;
+}
+.navigation .contacts,.nav2 .contacts{
+    color: gold;
+    font-weight: bold;
+}
+.navigation a, .nav2 a{
+    color: white;
+}
+header{
+    background: linear-gradient(90deg,#C33764, #1D2671);
+}
+.pno{
+    color:skyblue;
+}
+.pno:clicked{
+    color:skyblue;
+}
+p{
+    font-size: 1.05em;
+}
+main h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+main h1{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.leftdiv{
+    width:30%;
+    margin-left: 50px;
+}
+.leftdiv .address{
+    margin-bottom: 20px;
+}
+.rightdiv{
+    text-align: center;
+    display:block;
+    width:60%;
+}
+form{
+    margin:10px;
+}
+.nav2{
+    background: linear-gradient(90deg,#C33764, #1D2671);
+}
+form textarea{
+    line-height:100%;
+    width:80%;
+    margin-bottom:3%;
+    margin-top: 3%;
+    height: 140px;
+    padding:8px;
+    font-size: medium;
+    border: none;
+    border-radius: 8px;
+}
+form input{
+    width:80%;
+    height: 50px;
+    margin-bottom:3%;
+    margin-top: 3%;
+    padding:8px;
+    font-size: large;
+    border: none;
+    border-radius: 8px;
+}
+button{
+    margin-top: 5px;
+    width:40%;
+    line-height:200%;
+    border: none;
+    border-radius: 20px;
+    font-size:large ;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: #211159;
+}
+button:hover{
+    color:black;
+    background-color: skyblue;
+}
+.brakes{
+    display: none
+}
+
+@media (max-width:1000px) {
+    main{
+        display:block;
+        text-align: center;
+        padding:30px;
+    }
+    main h3 {
+        margin-top: 30px;
+        margin-bottom: 5px;
+        font-size: 1.3em;
+    }
+    main h1{
+        margin-top: 20px;
+    }
+    .rightdiv{
+        display:block;
+        float: none;
+        width:100%;
+    }
+    .leftdiv{
+        float: none;
+        display: block;
+    }
+    form textarea{
+        line-height:100%;
+        width:100%;
+        margin-bottom:2%;
+        margin-top: 2%;
+        height: 90px;
+        padding:8px;
+        font-size: medium;
+        border: none;
+        border-radius: 8px;
+    }
+    form input{
+        width:100%;
+        line-height: 100%;
+        margin-bottom:2%;
+        margin-top: 2%;
+        padding:8px;
+        font-size: medium;
+        border: none;
+        border-radius: 8px;
+    }
+    button{
+        margin-top: 5px;
+        width:100%;
+        line-height:200%;
+        border: none;
+        border-radius: 20px;
+        font-size:large ;
+    }
+
+}
+.nav2 .home:hover{
+    color:black;
+    font-weight: bold;
+}
+.nav2 .services:hover,.nav2 .about:hover,
+.nav2 .contacts:hover{
+    color:gold;
+    font-weight: bold;
+}

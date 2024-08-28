@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+    margin-top: 70px;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+}
+.navigation .about{
+    color: black;
+    font-weight: bold;
+}
+.nav2 .about{
+    color: gold;
+    font-weight: bold;
+}
+.navigation a, .nav2 a{
+    color: white;
+}
+header, .nav2{
+    background:linear-gradient(90deg,#3a1c71 , #d76d77 , #ffaf7b);
+}
+body{
+    background:linear-gradient(1800deg,#3a1c71 , #aa545c , #ffaf7b);
+    display: block;
+}
+.banner{
+    background-image: url(https://assets-global.website-files.com/634e7aa49f5b025e1fd9e87b/65203ae6f2e42a4b37398467_Working_as_a_Freelancer.jpeg);
+    background-position: bottom;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px 50% 20px 10px;
+    color:black;
+    border: 5px solid white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.nav2 .home:hover,
+.nav2 .about:hover{
+    color:gold;
+    font-weight: bold;
+}
+.nav2 .services:hover,
+.nav2 .contacts:hover{
+    color:black;
+    font-weight: bold;
+}
+.banner2{
+    width:100%;
+    display: flex;
+    background-color: #fff;
+    padding: 30px 10% 30px 10%;
+}
+.banner2 .left2{
+    width: 100%;
+    text-align: center;
+}
+.banner2 .right2{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+@media (max-width:1000px) {
+    .banner2{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+    .left2{
+        width: 100%;
+        padding-bottom: 3%;
+    }
+    .right2{
+        width: 100%;
+        padding-right: 0%;
+    }
+}
+.banner3{
+    background-color:white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+}
+.right3{
+    width: 100%;
+}
+hr{
+    height: 3px;
+}

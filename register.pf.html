@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration | ProjectiFy</title>
+    <link rel="stylesheet" href="css/login.css" class="rel">
+    <link rel="icon" type="images/png" href="Media/logos/pflogo.jpg">
+</head>
+<body background="Media/bgi/theme4.jpg">
+    <header>
+        <img class="img1" src="Media/logos/white.name.png" alt=""  width='150px'>
+        <nav class="navigation">
+            <a href="index.html" class="home.nav">Home</a>
+            <a href="about.pf.html" class="about.nav">About</a>
+            <a href="services.pf.html" class="services nav">Services</a>
+            <a href="contacts.pf.html" class="contacts nav">Contacts</a>
+            <button class="login-btn" onclick="location.href='login.pf.html'">Login</button>
+            
+        </nav>
+        <div class="nav2">
+            <a href="index.html" class="home">Home</a><br>
+            <a href="about.pf.html" class="about">About</a><br>
+            <a href="services.pf.html" class="services">Services</a><br>
+            <a href="contacts.pf.html" class="contacts">Contacts</a><br>
+            <button class="login-btn" 
+                onclick="location.href='login.pf.html'">
+                Login
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="wrapper">
+            <span class="icon-close"><ion-icon name="close" onclick="location.href='index.html'"></ion-icon></span>
+            <div class="form-box-register">
+                <h2>Register</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+                        <input type="text" required name="username" minlength="8" maxlength="12" id="username">
+                        <label>Username</label>
+                    </div>
+            
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </span>
+                        <input type="email" required name="email" id="email">
+                        <label>Email</label>
+                    </div>
+            
+                    <div class="input-box">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" required minlength="8" maxlength="12" name="password" id="password">
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox" required>I agree to the <a href="terms.html" target="_blank" >terms & conditions</a></label>
+                    
+                    </div>
+                    <!------button----------------------------------->
+                    <button type="submit" class="submit-btn">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account?
+                        <a href="login.pf.html" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+
+            
+        </div>
+    </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

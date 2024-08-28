@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+main{
+    margin: 110px 10px 10px 10px;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    background: linear-gradient(270deg,#f19df4 , #1EAE98);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    
+}
+.nav2{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    background: linear-gradient(270deg,#f19df4 , #1EAE98);
+    top: 50px;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    border-bottom-left-radius: 0px;
+    justify-content: space-between;
+    display: none;
+    height: 55px;
+    padding:10px;
+}
+.img1{
+    margin-left: 50px;
+}
+.navigation a{
+    position: relative;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 60px;
+}
+.nav2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    line-height: 35px;
+}
+.navigation a::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 5px;
+    transform-origin: right ;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.nav2 a:hover{
+    color:#000000 ;
+    font-weight: bold;
+}
+.navigation .login-btn{
+    width: 50px;
+    background: transparent;
+    color: white;
+    border:2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.4em;
+    width: 100px;
+    height: 40px;
+    margin-right:20px ;
+    margin-left: 60px;
+}
+.nav2 .login-btn{
+    width: 90px;
+    line-height: 30px;
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 60px;
+    color:white;
+    font-size: 1.4em;
+}
+.navigation .login-btn:hover, .nav2 .login-btn:hover {
+    background-color: white;
+    color:rgb(0, 0, 0);
+    scale: 1.1;
+    border: 2px double rgb(255, 255, 255);
+}
+@media (max-width:1000px){
+    .navigation .login-btn,
+    .navigation a{
+        display: none;
+    }
+    header{
+        height: 50px;
+    }
+    header .img1{
+    
+        margin-left: 27%;
+        width:200px;
+    }
+    .nav2{
+        display: flex;
+    }
+}
+@media (max-width:500px) {
+    .nav2 a,nav2 .login-btn{
+        font-size: 1.2rem;        
+    }
+}
+@media (max-width:450px) {
+    .mainline img{
+        width:80%;
+        height:40%;
+    }
+    .mainline h1{
+        font-size: 1.4em;
+    }
+    .mainline h3{
+        font-size: 0.7em;
+    }
+    .nav2 .login-btn{
+        width: 60px;
+        line-height: 15px;
+        background-color: transparent;
+        border:2px solid white;
+        border-radius: 20px;
+        color:white;
+        font-size: 1.2em;
+    }
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.wrapper{
+    position: relative;
+    width:390px;
+    height: 500px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius:20px ;
+    backdrop-filter: blur(30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.wrapper .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(7, 66, 111);
+    font-size: 2.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+}
+.wrapper .icon-close:hover{
+    background-color: rgb(230, 0, 0);
+    font-size: 2.7em;
+}
+.wrapper .form-box-login, .wrapper .form-box-register{
+    width: 100%;
+    padding:40px;
+}
+.form-box-login h2, .form-box-register h2{
+    font-size: 3em;
+    color:white;
+    text-align: center;
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    border-bottom: 2px solid white;
+    margin:30px 0;
+}
+.input-box label{
+    position: absolute;
+    top: -5%;
+    left:5px;
+    transform: translateY(-50%);
+    font-size: 1.4em;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    pointer-events:none;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 1.2em;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.5em;
+    line-height: 57px;
+}
+.remember-forgot{
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+    margin: -5px 0 15px;
+    font-weight:500;
+}
+.remember-forgot label input{
+    margin-right: 3px;
+    accent-color: blue;
+
+}
+.remember-forgot a{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+    color:rgb(255, 0, 0);
+}
+.submit-btn{
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border:none;
+    background-color:rgb(30, 8, 79);
+    color:rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.submit-btn:hover{
+    cursor: pointer;
+    background-color: rgb(55, 40, 164);
+}
+.login-register{
+    font-size: 0.92m;
+    margin: 25px 0 10px;
+    text-align: center;
+    font-weight: 500;
+}
+.register-link,.login-link{
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(0, 0, 0)
+}
+.register-link:hover,.login-link:hover{
+    color:red;
+}

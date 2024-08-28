@@ -1,0 +1,34 @@
+/*grid css*/
+main{
+  text-align: center;
+}
+.container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+  grid-auto-rows: minmax(200px,auto-fill);
+  grid-auto-columns: minmax(200px,auto-fill);
+  grid-gap: 20px;
+}
+.items{
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  overflow: hidden;
+}
+#top:hover{
+  background: #2071a7;
+  color: white;
+}
+.items:hover{
+  scale: 1.03;
+  background: #e4ad55;
+  border:3px solid white;
+}
+.items h1{
+  font-size:1.5em
+}
+.items p{
+  padding: 10px;
+  font-size: 1em;
+}

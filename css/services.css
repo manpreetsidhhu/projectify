@@ -1,0 +1,37 @@
+/*services css*/
+body{
+    background:linear-gradient(180deg,#e4ad55, #19547b)
+}
+main{
+    width: 96%;
+    margin-top: 70px;
+    margin-left: 2%;
+    padding: 0;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 2%;
+
+}
+header{
+    background: linear-gradient(270deg,#e4ad55, #2071a7);
+}
+.nav2{
+    background: linear-gradient(270deg,#e4ad55, #2071a7);
+}
+.navigation .services,.nav2 .services{
+    color: black;
+    font-weight: bold;
+}
+.nav2 a:hover{
+    color:rgb(0, 0, 0);
+}
+.nav2 .home:hover,
+.nav2 .about:hover{
+    color:gold;
+    font-weight: bold;
+}
+.nav2 .services:hover,
+.nav2 .contacts:hover{
+    color:black;
+    font-weight: bold;
+}
