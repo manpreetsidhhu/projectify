@@ -13,12 +13,11 @@ Welcome to **ProjectiFy**! Our platform is a global online marketplace designed 
   - Bookkeeping
   - Graphics and Design
   - Accounting
-  - Video Editing
   - Data Entry
   - Social Media Marketing
   - Content Writing
-  - Microsoft Office
-  - Logo Design
+  - Logo Design 
+  - and so many more...
 - **Project Management Tools** 📊: Efficiently manage projects and track progress.
 - **Secure Payment System** 💳: Safe and reliable payment options.
 - **User-Friendly Interface** 🖥️: Easy-to-navigate platform.
