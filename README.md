@@ -1,5 +1,5 @@
 # 📈 ProjectiFy: A Comprehensive Freelancing Platform
-(Only frontend project)
+(Only frontend project) [**Visit ProjectiFy**](https://www.projectify-in.netlify.app/)
 
 Welcome to **ProjectiFy**! Our platform is a global online marketplace designed to connect employers with skilled freelancers across various industries. Whether you're looking for a web designer, programmer, or content writer, ProjectiFy offers a diverse range of services to meet your needs.
 
